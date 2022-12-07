@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VENTANA">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="89" y="13" width="667" height="304"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <focusCycleRoot value="false"/>
+      <focusTraversalPolicyProvider value="false"/>
+      <inheritsPopupMenu value="true"/>
+      <nextFocusableComponent value=""/>
+      <opaque value="true"/>
+      <verifyInputWhenFocusTarget value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none">
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="46483" class="javax.swing.JLabel" binding="labelUsuario">
+        <constraints/>
+        <properties>
+          <foreground color="-1118209"/>
+          <text value="METODO DE RECARGA"/>
+        </properties>
+      </component>
+      <component id="f8951" class="javax.swing.JButton" binding="PSEButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-15356138"/>
+          <text value="PSE"/>
+        </properties>
+      </component>
+      <scrollpane id="bbf07">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <component id="22df1" class="javax.swing.JButton" binding="PUNTOFISICOButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-13123943"/>
+          <text value="PUNTO FISICO"/>
+        </properties>
+      </component>
+      <component id="7b85a" class="javax.swing.JButton" binding="ingresarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-15326248"/>
+          <text value="ACEPTAR"/>
+        </properties>
+      </component>
+      <component id="73c81" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-15326248"/>
+          <text value="SALIR"/>
+        </properties>
+      </component>
+      <grid id="85470" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
